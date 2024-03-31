@@ -1,0 +1,132 @@
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #007BFF;
+    margin-left: 20%;
+    margin-right: 20%;
+    padding: 20px;
+}
+
+.container {
+    background-color: #ffffff; /* blue background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    max-width: 600px;
+    margin: 50px auto; /* centers the container */
+}
+
+
+h1 {
+    color: #333;
+    text-align: center;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+}
+
+h2 {
+    color: #333;
+    text-align: center;
+    border-bottom: 2px solid #e0e0e0;
+    padding-bottom: 10px;
+    margin-bottom: 5px;  /* adjust this value as needed */
+}
+
+
+form {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    max-width: 400px;
+}
+
+input[type="file"] {
+    padding: 10px;
+    background-color: #f6f6f6;
+    border: 1px solid #e0e0e0;
+    border-radius: 4px;
+    display: block;
+    width: 100%;
+}
+
+.input-wrapper {
+    position: relative;
+    width: 100%;
+}
+
+.input-wrapper input[type="file"] {
+    padding-right: 0px; /* make room for the icon */
+    padding-left: 0px;
+}
+
+.input-wrapper .fa-headphones {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #007BFF;
+    pointer-events: none; /* ensures the icon doesn't interfere with file input interactions */
+}
+
+button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    margin-top: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.fileButton{
+    background-color: #f2efef;
+    transition: box-shadow 0.1s ease-in-out, transform 0.1s ease-in-out;
+}
+
+.fileButton:hover{
+    color:blue;
+    cursor: pointer;
+    background-color: #ffffff;
+    box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+    transform: translateY(-3px);
+}
+
+.chooseFile::-webkit-file-upload-button {
+    padding: 10px;
+    background-color: #007BFF;
+    color: #fff;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3 ease;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    padding: 10px;
+    background-color: #fff;
+    border-radius: 4px;
+    margin-bottom: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration: none;
+    color: #007BFF;
+    font-weight: bold;
+}
+
+a:hover {
+    text-decoration: underline;
+}
